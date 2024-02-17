@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Button, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 import Icon from 'react-native-vector-icons/Ionicons';
 
@@ -150,16 +150,20 @@ function GirisScreen({ navigation }) {
         
         <Text style={styles.baslik2}>{'     '}3. Tel üzerinde bulunan ana perdelerin dizek üzerinde gösterilmesi</Text>
 
-        <Text style={styles.baslik2}>{'     '}Görsel Eklenecek</Text>
+        <Image 
+        source={require('../img/tel3_1_perde_dizek.png')} 
+        style={{width: '100%', height: 250, resizeMode:'contain'}}/>
 
         <Text style={styles.baslik2}>{'     '}1. Tel üzerinde bulunan ana perdelerin dizek üzerinde gösterilmesi</Text>
 
-        <Text style={styles.baslik2}>{'     '}Görsel Eklenecek</Text>
+        <Image 
+        source={require('../img/tel2_perde_dizek.png')} 
+        style={{width: '100%', height: 250, resizeMode:'contain'}}/>
         
         <Text style={styles.baslik2}>{'     '}2. Tel üzerinde bulunan ana perdelerin dizek üzerinde gösterilmesi</Text>
         
 
-
+        
         
         
         
