@@ -5,6 +5,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import KapakScreen from './src/screens/KapakScreen';
 import OnsozScreen from './src/screens/OnsozScreen';
 import GirisScreen from './src/screens/GirisScreen';
+import ParmakAcmaScreen from './src/screens/ParmakAcmaScreen';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 function CustomDrawerContent(props) {
@@ -59,6 +60,17 @@ export default function App() {
         <Drawer.Screen 
         name="Giriş" 
         component={GirisScreen} 
+        options={{
+        drawerIcon: ()=>(<Icon
+        name="reader"
+        color="grey"
+        size={24}
+        />) 
+        }}  
+        />
+        <Drawer.Screen 
+        name="Parmak Açma" 
+        component={ParmakAcmaScreen} 
         options={{
         drawerIcon: ()=>(<Icon
         name="reader"
