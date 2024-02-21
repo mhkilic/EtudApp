@@ -9,6 +9,12 @@ import Etut01 from './src/components/ParmakAcmaEtutleri/Etut01';
 import Etut02 from './src/components/ParmakAcmaEtutleri/Etut02';
 import Etut03 from './src/components/ParmakAcmaEtutleri/Etut03';
 import Etut04 from './src/components/ParmakAcmaEtutleri/Etut04';
+import Etut05 from './src/components/ParmakAcmaEtutleri/Etut05';
+import Etut06 from './src/components/ParmakAcmaEtutleri/Etut06';
+import Etut07 from './src/components/ParmakAcmaEtutleri/Etut07';
+import Etut08 from './src/components/ParmakAcmaEtutleri/Etut08';
+import Etut09 from './src/components/ParmakAcmaEtutleri/Etut09';
+import Etut10 from './src/components/ParmakAcmaEtutleri/Etut10';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 function AnaDrawerContent(props) {
@@ -21,12 +27,12 @@ function AnaDrawerContent(props) {
   return (
     <DrawerContentScrollView {...props}>
       <View style={styles.drawerHeader}>
-        <Text style={styles.drawerHeaderText}>100 Etüt</Text>
+        <Text style={styles.drawerHeaderText}>Bağlama için 100 Etüt</Text>
       </View>
       <DrawerItemList {...props} />
       <DrawerItem
-        label="Çıkış Yap"
-        onPress={() => alert('Çıkış Yapıldı')}
+        label="Yrd. Doç. Dr. Mehmet KINIK"
+        onPress={() => alert('Yazar')}
       />
     </DrawerContentScrollView>
   );
@@ -218,6 +224,84 @@ const ParmakAcmaAltMenu = () => {
           )
         }}
       />
+      <Drawer.Screen
+        name="Etüt 05"
+        component={Etut05}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+      <Drawer.Screen
+        name="Etüt 06"
+        component={Etut06}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+      <Drawer.Screen
+        name="Etüt 07"
+        component={Etut07}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+      <Drawer.Screen
+        name="Etüt 08"
+        component={Etut08}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+      <Drawer.Screen
+        name="Etüt 09"
+        component={Etut09}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+      <Drawer.Screen
+        name="Etüt 10"
+        component={Etut10}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
     </Drawer.Navigator>
   );
 };
@@ -253,17 +337,17 @@ const ParmakCarpmaAltMenu = () => {
 const styles = StyleSheet.create({
   drawerHeader: {
     backgroundColor: 'grey',
-    height: 60,
+    height: 50,
     alignItems: 'center',
     justifyContent: 'center',
     padding: 5,
-    borderRadius: 10,
-    marginBottom: 10,
-    marginHorizontal: 8
+    borderRadius: 8,
+    marginBottom: 5,
+    marginHorizontal: 2
   },
   drawerHeaderText: {
     color: 'white',
-    fontSize: 24,
+    fontSize: 18,
     fontWeight: 'bold'
   }
 });

@@ -7,52 +7,6 @@ function ParmakAcmaScreen({ navigation }) {
     <ScrollView>
       <View style={styles.container}>
         
-        
-        
-        <Text style={styles.baslik1}>Etüt 04</Text>
-        <Image 
-        source={require('../img/parmak_acma/04.png')} 
-        style={{width: '95%', height: 189, resizeMode:'contain'}}/>
-        
-        <Text style={styles.baslik1}>Etüt 05</Text>
-        <Image 
-        source={require('../img/parmak_acma/05.png')} 
-        style={{width: '95%', height: 194, resizeMode:'contain'}}/>
-        
-        <Text style={styles.baslik1}>Etüt 06</Text>
-        <Image 
-        source={require('../img/parmak_acma/06.png')} 
-        style={{width: '95%', height: 119, resizeMode:'contain'}}/>
-       
-        <Text style={styles.baslik1}>Etüt 07</Text>
-        <Image 
-        source={require('../img/parmak_acma/07.png')} 
-        style={{width: '95%', height: 180, resizeMode:'contain'}}/>
-        
-        <Text style={styles.baslik1}>Etüt 08 (a,b,c)</Text>
-        <Image 
-        source={require('../img/parmak_acma/08a.png')} 
-        style={{width: '95%', height: 184, resizeMode:'contain'}}/>
-        <Text style={styles.paragraf}>
-        Not: Bu etütte onaltılık ve sekizlik notaların birim vuruş süresi içerisinde 
-        seslendirilmesine (tartımlarına) dikkat edilmelidir.
-        </Text>
-        <Image 
-        source={require('../img/parmak_acma/08b.png')} 
-        style={{width: '95%', height: 237, resizeMode:'contain'}}/>
-        <Image 
-        source={require('../img/parmak_acma/08c.png')} 
-        style={{width: '95%', height: 295, resizeMode:'contain'}}/>
-        
-        <Text style={styles.baslik1}>Etüt 09 (a,b)</Text>
-        <Image 
-        source={require('../img/parmak_acma/09a.png')} 
-        style={{width: '95%', height: 366, resizeMode:'contain'}}/>
-        
-        <Image 
-        source={require('../img/parmak_acma/09b.png')} 
-        style={{width: '95%', height: 541, resizeMode:'contain'}}/>
-        
         <Text style={styles.baslik1}>Etüt 10</Text>
         <Image 
         source={require('../img/parmak_acma/10.png')} 
