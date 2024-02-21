@@ -7,54 +7,7 @@ function ParmakAcmaScreen({ navigation }) {
     <ScrollView>
       <View style={styles.container}>
         
-       <Text style={styles.baslik1}>Etüt 20</Text>
-        <Image 
-        source={require('../img/parmak_acma/20_1.png')} 
-        style={{width: '95%', height:534, resizeMode:'contain'}}/>
-        <Image 
-        source={require('../img/parmak_acma/20_2.png')} 
-        style={{width: '95%', height:287, resizeMode:'contain'}}/>
-        <Text style={styles.paragraf}>
-        Not: 30–33. ölçülerdeki kromatik aralıkları seslendirirken özellikle 1. parmağın geldiği 
-        perdelere dikkat edilmesi daha seri çalma becerisini kazandıracaktır.
-        </Text>
-
-        <Text style={styles.baslik1}>Etüt 21</Text>
-        <Image 
-        source={require('../img/parmak_acma/21.png')} 
-        style={{width: '95%', height:298, resizeMode:'contain'}}/>
-
-        <Text style={styles.baslik1}>Etüt 22</Text>
-        <Image 
-        source={require('../img/parmak_acma/22.png')} 
-        style={{width: '95%', height:411, resizeMode:'contain'}}/>
-
-        <Text style={styles.baslik1}>Etüt 23</Text>
-        <Image 
-        source={require('../img/parmak_acma/23.png')} 
-        style={{width: '95%', height:243, resizeMode:'contain'}}/>
-
-        <Text style={styles.baslik1}>Etüt 24</Text>
-        <Image 
-        source={require('../img/parmak_acma/24.png')} 
-        style={{width: '95%', height:296, resizeMode:'contain'}}/>
-        <Text style={styles.paragraf}>
-        Not: Bu etüt Zirgüleli Hicaz dizisinde parmak alıştırmaya yöneliktir. 
-        Bu etüdün içerisinde özellikle mi perdesi üzerinde bulunan Hicaz aralığında, 
-        parmakların mümkün olduğunca açık tutulması etüdün daha temiz ve akıcı çalınmasını sağlayacaktır.
-        </Text>
-        <Text style={styles.baslik1}>Etüt 25 (a,b)</Text>
-        <Image 
-        source={require('../img/parmak_acma/25a1.png')} 
-        style={{width: '95%', height:501, resizeMode:'contain'}}/>
-        <Image 
-        source={require('../img/parmak_acma/25a2.png')} 
-        style={{width: '95%', height:113, resizeMode:'contain'}}/>
-        <Image 
-        source={require('../img/parmak_acma/25b.png')} 
-        style={{width: '95%', height:404, resizeMode:'contain'}}/>
-        
-        <Text style={styles.baslik1}>Etüt 26</Text>
+       <Text style={styles.baslik1}>Etüt 26</Text>
         <Image 
         source={require('../img/parmak_acma/26.png')} 
         style={{width: '95%', height:537, resizeMode:'contain'}}/>
