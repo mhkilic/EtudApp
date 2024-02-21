@@ -29,14 +29,6 @@ const styles = StyleSheet.create({
         alignItems: 'center', 
         justifyContent: 'center'
     },
-    paragraf:{
-        marginTop:20,
-        paddingHorizontal:20,
-        textAlign:'justify',
-        lineHeight:24,
-        color:'black',
-        fontSize:18,
-        
-    },
+   
     
 })
