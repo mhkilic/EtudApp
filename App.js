@@ -35,6 +35,16 @@ import Etut27 from './src/components/ParmakAcmaEtutleri/Etut27';
 import Etut28 from './src/components/ParmakAcmaEtutleri/Etut28';
 import Etut29 from './src/components/ParmakAcmaEtutleri/Etut29';
 import Etut30 from './src/components/ParmakAcmaEtutleri/Etut30';
+import Etut31 from './src/components/ParmakAcmaEtutleri/Etut31';
+import Etut32 from './src/components/ParmakAcmaEtutleri/Etut32';
+import Etut33 from './src/components/ParmakAcmaEtutleri/Etut33';
+import Etut34 from './src/components/ParmakAcmaEtutleri/Etut34';
+import Etut35 from './src/components/ParmakAcmaEtutleri/Etut35';
+import Etut36 from './src/components/ParmakAcmaEtutleri/Etut36';
+import Etut37 from './src/components/ParmakAcmaEtutleri/Etut37';
+import Etut38 from './src/components/ParmakAcmaEtutleri/Etut38';
+import Etut39 from './src/components/ParmakAcmaEtutleri/Etut39';
+import Etut40 from './src/components/ParmakAcmaEtutleri/Etut40';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 function AnaDrawerContent(props) {
@@ -572,6 +582,136 @@ const ParmakAcmaAltMenu = () => {
       <Drawer.Screen
         name="Etüt 30"
         component={Etut30}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+      <Drawer.Screen
+        name="Etüt 31"
+        component={Etut31}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+      <Drawer.Screen
+        name="Etüt 32"
+        component={Etut32}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+      <Drawer.Screen
+        name="Etüt 33"
+        component={Etut33}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+      <Drawer.Screen
+        name="Etüt 34"
+        component={Etut34}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+      <Drawer.Screen
+        name="Etüt 35"
+        component={Etut35}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+      <Drawer.Screen
+        name="Etüt 36"
+        component={Etut36}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+      <Drawer.Screen
+        name="Etüt 37"
+        component={Etut37}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+      <Drawer.Screen
+        name="Etüt 38"
+        component={Etut38}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+      <Drawer.Screen
+        name="Etüt 39"
+        component={Etut39}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+      <Drawer.Screen
+        name="Etüt 40"
+        component={Etut40}
         options={{
           drawerIcon: () => (
             <Icon
