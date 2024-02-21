@@ -1,18 +1,18 @@
-import { StyleSheet, Text, View, Image } from 'react-native'
+import { StyleSheet, View, Image } from 'react-native'
 import React from 'react'
 import YouTubeVideo from '../YoutubeVideo'
 import { ScrollView } from 'react-native-gesture-handler'
 import RotateContent from '../RotateContent'
 
-const Etut01 = () => {
+const Etut02 = () => {
   return (
     <RotateContent>
     <ScrollView>
     <View style={styles.container}>
-      <YouTubeVideo videoId={'0UcFTvXL1pE'}/>
+      <YouTubeVideo videoId={'bxE0O3C1sM4'}/>
       <Image 
-       source={require('../../img/parmak_acma/01.png')} 
-       style={{width:375, height: 510, resizeMode:'contain'}}/>
+       source={require('../../img/parmak_acma/02.png')} 
+       style={{width:375, height: 137, resizeMode:'contain'}}/>
     
     </View>
     </ScrollView>
@@ -20,7 +20,7 @@ const Etut01 = () => {
   )
 }
 
-export default Etut01
+export default Etut02
 
 const styles = StyleSheet.create({
     container:{

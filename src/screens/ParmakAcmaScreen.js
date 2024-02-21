@@ -7,14 +7,6 @@ function ParmakAcmaScreen({ navigation }) {
   return (
     <ScrollView>
       <View style={styles.container}>
-        <Icon name="reader" color="black" size={24} style={styles.icon}/>
-        
-        <Etut01/>
-        
-        <Text style={styles.baslik1}>Etüt 02</Text>
-        <Image 
-        source={require('../img/parmak_acma/02.png')} 
-        style={{width: '95%', height: 137, resizeMode:'contain'}}/>
         
         <Text style={styles.baslik1}>Etüt 03</Text>
         <Image 

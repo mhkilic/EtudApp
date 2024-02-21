@@ -1,12 +1,13 @@
 import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import { createDrawerNavigator, DrawerContentScrollView, DrawerItemList, DrawerItem } from '@react-navigation/drawer';
 import { NavigationContainer, useNavigation } from '@react-navigation/native';
 import KapakScreen from './src/screens/KapakScreen';
 import OnsozScreen from './src/screens/OnsozScreen';
 import GirisScreen from './src/screens/GirisScreen';
-import ParmakAcmaScreen from './src/screens/ParmakAcmaScreen';
 import Etut01 from './src/components/ParmakAcmaEtutleri/Etut01';
+import Etut02 from './src/components/ParmakAcmaEtutleri/Etut02';
+import Etut03 from './src/components/ParmakAcmaEtutleri/Etut03';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 function CustomDrawerContent(props) {
@@ -130,7 +131,33 @@ const EtutStack = () => {
         options={{
           drawerIcon: () => (
             <Icon
-              name="reader"
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+      <Drawer.Screen
+        name="Etüt 02"
+        component={Etut02}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+      <Drawer.Screen
+        name="Etüt 03"
+        component={Etut03}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
               color="grey"
               size={24}
             />
