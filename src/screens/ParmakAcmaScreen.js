@@ -1,23 +1,13 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
-import Icon from 'react-native-vector-icons/Ionicons';
-import Etut01 from '../components/ParmakAcmaEtutleri/Etut01';
+
 function ParmakAcmaScreen({ navigation }) {
   return (
     <ScrollView>
       <View style={styles.container}>
         
-        <Text style={styles.baslik1}>Etüt 03</Text>
-        <Image 
-        source={require('../img/parmak_acma/03.png')} 
-        style={{width: '95%', height: 128, resizeMode:'contain'}}/>
-        <Text style={styles.paragraf}>
-        Not: Bu etüdün çıkıcı bölümünde yer alan üçlü aralık atlamaların 
-        seslendirilmesinde temiz baskı ve duyumun yanında ezgideki akıcılığa dikkat 
-        edilmelidir. Ayrıca bu etüt icra ve çalışma öncesinde istenilen hızın 
-        uygulanması ile her seviyede kullanılabilecek bir parmak açma etüdüdür.
-        </Text>
+        
         
         <Text style={styles.baslik1}>Etüt 04</Text>
         <Image 

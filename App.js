@@ -8,9 +8,10 @@ import GirisScreen from './src/screens/GirisScreen';
 import Etut01 from './src/components/ParmakAcmaEtutleri/Etut01';
 import Etut02 from './src/components/ParmakAcmaEtutleri/Etut02';
 import Etut03 from './src/components/ParmakAcmaEtutleri/Etut03';
+import Etut04 from './src/components/ParmakAcmaEtutleri/Etut04';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-function CustomDrawerContent(props) {
+function AnaDrawerContent(props) {
   const navigation = useNavigation();
 
   const handleGoBack = () => {
@@ -30,6 +31,46 @@ function CustomDrawerContent(props) {
     </DrawerContentScrollView>
   );
 }
+function ParmakAcmaDrawerContent(props) {
+  const navigation = useNavigation();
+
+  const handleGoBack = () => {
+    navigation.goBack();
+  };
+
+  return (
+    <DrawerContentScrollView {...props}>
+      <View style={styles.drawerHeader}>
+        <Text style={styles.drawerHeaderText}>Etütler (1 - 48)</Text>
+      </View>
+      <DrawerItemList {...props} />
+      <DrawerItem
+        label="Çıkış Yap"
+        onPress={() => alert('Çıkış Yapıldı')}
+      />
+    </DrawerContentScrollView>
+  );
+}
+function ParmakCarpmaDrawerContent(props) {
+  const navigation = useNavigation();
+
+  const handleGoBack = () => {
+    navigation.goBack();
+  };
+
+  return (
+    <DrawerContentScrollView {...props}>
+      <View style={styles.drawerHeader}>
+        <Text style={styles.drawerHeaderText}>Etütler (49 - 64)</Text>
+      </View>
+      <DrawerItemList {...props} />
+      <DrawerItem
+        label="Çıkış Yap"
+        onPress={() => alert('Çıkış Yapıldı')}
+      />
+    </DrawerContentScrollView>
+  );
+}
 
 const Drawer = createDrawerNavigator();
 
@@ -37,7 +78,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Drawer.Navigator
-        drawerContent={props => <CustomDrawerContent {...props} />}
+        drawerContent={props => <AnaDrawerContent {...props} />}
         screenOptions={{
           drawerStyle: {
             borderRadius: 10,
@@ -50,7 +91,7 @@ export default function App() {
           options={{
             drawerIcon: () => (
               <Icon
-                name="reader"
+                name="compass"
                 color="grey"
                 size={24}
               />
@@ -63,7 +104,7 @@ export default function App() {
           options={{
             drawerIcon: () => (
               <Icon
-                name="reader"
+                name="search-circle"
                 color="grey"
                 size={24}
               />
@@ -76,7 +117,7 @@ export default function App() {
           options={{
             drawerIcon: () => (
               <Icon
-                name="reader"
+                name="easel"
                 color="grey"
                 size={24}
               />
@@ -85,11 +126,11 @@ export default function App() {
         />
         <Drawer.Screen
           name="Parmak Açma"
-          component={EtutStack}
+          component={ParmakAcmaAltMenu}
           options={{
             drawerIcon: () => (
               <Icon
-                name="reader"
+                name="logo-youtube"
                 color="grey"
                 size={24}
               />
@@ -98,11 +139,11 @@ export default function App() {
         />
         <Drawer.Screen
           name="Parmak Çarpma"
-          component={EtutStack}
+          component={ParmakCarpmaAltMenu}
           options={{
             drawerIcon: () => (
               <Icon
-                name="reader"
+                name="logo-youtube"
                 color="grey"
                 size={24}
               />
@@ -114,10 +155,10 @@ export default function App() {
   );
 }
 
-const EtutStack = () => {
+const ParmakAcmaAltMenu = () => {
   return (
     <Drawer.Navigator
-      drawerContent={props => <CustomDrawerContent {...props} />}
+      drawerContent={props => <ParmakAcmaDrawerContent {...props} />}
       screenOptions={{
         drawerStyle: {
           borderRadius: 10,
@@ -164,6 +205,47 @@ const EtutStack = () => {
           )
         }}
       />
+      <Drawer.Screen
+        name="Etüt 04"
+        component={Etut04}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+    </Drawer.Navigator>
+  );
+};
+const ParmakCarpmaAltMenu = () => {
+  return (
+    <Drawer.Navigator
+      drawerContent={props => <ParmakCarpmaDrawerContent {...props} />}
+      screenOptions={{
+        drawerStyle: {
+          borderRadius: 10,
+          overflow: 'hidden'
+        }
+      }}>
+      
+      <Drawer.Screen
+        name="Etüt 01"
+        component={Etut01}
+        options={{
+          drawerIcon: () => (
+            <Icon
+              name="logo-youtube"
+              color="grey"
+              size={24}
+            />
+          )
+        }}
+      />
+      
     </Drawer.Navigator>
   );
 };

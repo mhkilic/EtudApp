@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   },
   webview: {
     width: 375,
-    height: 300,
+    height: 211,
     
   },
 });
