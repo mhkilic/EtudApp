@@ -19,10 +19,10 @@ const Etut08 = () => {
         </Text>
       <Image 
        source={require('../../img/parmak_acma/08b.png')} 
-       style={{width:375, height: 237, resizeMode:'contain'}}/>
+       style={{width:320, height: 237, resizeMode:'contain'}}/>
       <Image 
        source={require('../../img/parmak_acma/08c.png')} 
-       style={{width:375, height: 295, resizeMode:'contain'}}/>
+       style={{width:320, height: 295, resizeMode:'contain', alignSelf:'center'}}/>
       
     </View>
     </ScrollView>

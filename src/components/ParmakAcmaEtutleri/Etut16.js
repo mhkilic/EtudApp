@@ -12,13 +12,13 @@ const Etut16 = () => {
       <YouTubeVideo videoId={'GP6j7CQnbrM'}/>
       <Image 
        source={require('../../img/parmak_acma/16a.png')} 
-       style={{width:375, height: 433, resizeMode:'contain'}}/>
+       style={{width:320, height: 433, resizeMode:'contain', alignSelf:'center'}}/>
       <Image 
        source={require('../../img/parmak_acma/16b1.png')} 
-       style={{width:375, height: 494, resizeMode:'contain'}}/>
+       style={{width:320, height: 494, resizeMode:'contain', alignSelf:'center'}}/>
       <Image 
        source={require('../../img/parmak_acma/16b2.png')} 
-       style={{width:375, height: 122, resizeMode:'contain'}}/>
+       style={{width:320, height: 122, resizeMode:'contain', alignSelf:'center'}}/>
       <Text style={styles.paragraf}>
         Not: Bu etüdün 1 – 13. ölçüleri isteğe bağlı olarak tekrar edilerek çalınabilir.
         </Text>

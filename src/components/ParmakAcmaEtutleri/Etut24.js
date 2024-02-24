@@ -12,7 +12,7 @@ const Etut24 = () => {
       <YouTubeVideo videoId={'_faxmlm0MF0'}/>
       <Image 
        source={require('../../img/parmak_acma/24.png')} 
-       style={{width:375, height: 296, resizeMode:'contain'}}/>
+       style={{width:320, height: 296, resizeMode:'contain', alignSelf:'center'}}/>
        <Text style={styles.paragraf}>
         Not: Bu etüt Zirgüleli Hicaz dizisinde parmak alıştırmaya yöneliktir. 
         Bu etüdün içerisinde özellikle mi perdesi üzerinde bulunan Hicaz aralığında, 

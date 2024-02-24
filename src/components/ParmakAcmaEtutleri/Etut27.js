@@ -12,7 +12,7 @@ const Etut27 = () => {
       <YouTubeVideo videoId={'Sk5UFr4yf8Q'}/>
       <Image 
        source={require('../../img/parmak_acma/27.png')} 
-       style={{width:375, height: 409, resizeMode:'contain'}}/>
+       style={{width:320, height: 409, resizeMode:'contain', alignSelf:'center'}}/>
       <Text style={styles.paragraf}>
         Not: Ölçü dönüşü işaretleri üzerinde bulunan 2 rakamı o ölçünün 
         iki defa tekrar edileceğini gösterir. Bu durumda o ölçü toplamda 

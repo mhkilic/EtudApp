@@ -12,7 +12,7 @@ const Etut15 = () => {
       <YouTubeVideo videoId={'nYp7WxuNA9E'}/>
       <Image 
        source={require('../../img/parmak_acma/14.png')} 
-       style={{width:375, height: 471, resizeMode:'contain'}}/>
+       style={{width:320, height: 471, resizeMode:'contain', alignSelf:'center'}}/>
       
       
     </View>

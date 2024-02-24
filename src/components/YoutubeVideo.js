@@ -25,9 +25,9 @@ const styles = StyleSheet.create({
     margin:20,
   },
   webview: {
-    width: 375,
-    height: 211,
-    
+    width: 320,
+    height: 182,
+    alignSelf:'center'
   },
 });
 

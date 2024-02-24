@@ -12,7 +12,7 @@ const Etut03 = () => {
       <YouTubeVideo videoId={'a44zZ1gH6nk'}/>
       <Image 
        source={require('../../img/parmak_acma/03.png')} 
-       style={{width:375, height: 128, resizeMode:'contain'}}/>
+       style={{width:320, height: 128, resizeMode:'contain', alignSelf:'center'}}/>
       <Text style={styles.paragraf}>
         Not: Bu etüdün çıkıcı bölümünde yer alan üçlü aralık atlamaların 
         seslendirilmesinde temiz baskı ve duyumun yanında ezgideki akıcılığa dikkat 

@@ -12,10 +12,10 @@ const Etut19 = () => {
       <YouTubeVideo videoId={'LRzXCIE_5mM'}/>
       <Image 
        source={require('../../img/parmak_acma/19_1.png')} 
-       style={{width:375, height: 507, resizeMode:'contain'}}/>
+       style={{width:320, height: 507, resizeMode:'contain', alignSelf:'center'}}/>
       <Image 
        source={require('../../img/parmak_acma/19_2.png')} 
-       style={{width:375, height: 237, resizeMode:'contain'}}/>
+       style={{width:320, height: 237, resizeMode:'contain', alignSelf:'center'}}/>
       <Text style={styles.paragraf}>
         Not: 19. Etüt Hicaz dizisinde üçerli tartımlarda düz tezene vuruşuna yöneliktir. 
         Bu etütte Hicaz dizisinde bulunan si bemol ve do diyez aralığına dikkat edilmelidir. 

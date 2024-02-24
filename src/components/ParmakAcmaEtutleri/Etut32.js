@@ -12,10 +12,10 @@ const Etut32 = () => {
       <YouTubeVideo videoId={'VtVrbRKWO_s'}/>
       <Image 
        source={require('../../img/parmak_acma/32_1.png')} 
-       style={{width:375, height: 445, resizeMode:'contain'}}/>
+       style={{width:320, height: 445, resizeMode:'contain', alignSelf:'center'}}/>
       <Image 
        source={require('../../img/parmak_acma/32_2.png')} 
-       style={{width:375, height: 321, resizeMode:'contain'}}/>
+       style={{width:320, height: 321, resizeMode:'contain', alignSelf:'center'}}/>
       <Text style={styles.paragraf}>
         Not: Bu etüdün 11-15. ölçülerinde kesik bağ işareti ile belirtilen 
         sesler tutarak (parmakları kaldırmadan) çalınır.

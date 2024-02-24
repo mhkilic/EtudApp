@@ -12,10 +12,10 @@ const Etut18 = () => {
       <YouTubeVideo videoId={'ZR2D5Bf3VB0'}/>
       <Image 
        source={require('../../img/parmak_acma/18_1.png')} 
-       style={{width:375, height: 476, resizeMode:'contain'}}/>
+       style={{width:320, height: 476, resizeMode:'contain', alignSelf:'center'}}/>
       <Image 
        source={require('../../img/parmak_acma/18_2.png')} 
-       style={{width:375, height: 145, resizeMode:'contain'}}/>
+       style={{width:320, height: 145, resizeMode:'contain', alignSelf:'center'}}/>
       <Text style={styles.paragraf}>
         Not: 18. Etütte tartım üçerli olmasına rağmen vuruşlar baştan sona kadar üstten ve 
         alttan olmak üzere devam etmektedir. Burada, üçerli tartımlarda düz tezene vuruşu 

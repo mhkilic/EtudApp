@@ -12,10 +12,10 @@ const Etut34 = () => {
       <YouTubeVideo videoId={'OPqBssHYRFw'}/>
       <Image 
        source={require('../../img/parmak_acma/34_1.png')} 
-       style={{width:375, height: 530, resizeMode:'contain'}}/>
+       style={{width:320, height: 530, resizeMode:'contain', alignSelf:'center'}}/>
       <Image 
        source={require('../../img/parmak_acma/34_2.png')} 
-       style={{width:375, height: 61, resizeMode:'contain'}}/>
+       style={{width:320, height: 61, resizeMode:'contain', alignSelf:'center'}}/>
      
     </View>
     </ScrollView>

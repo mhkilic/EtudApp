@@ -12,7 +12,7 @@ const Etut39 = () => {
       <YouTubeVideo videoId={'2XeuAPmcc7E'}/>
       <Image 
        source={require('../../img/parmak_acma/39.png')} 
-       style={{width:375, height: 470, resizeMode:'contain'}}/>
+       style={{width:320, height: 470, resizeMode:'contain', alignSelf:'center'}}/>
       <Text style={styles.paragraf}>
         Not: Bu etüdün 1-10. ölçüleri isteğe bağlı olarak tekrar edilerek çalınabilir.
         </Text>

@@ -12,11 +12,11 @@ const Etut29 = () => {
       <YouTubeVideo videoId={'AU7SbYinPXY'}/>
       <Image 
        source={require('../../img/parmak_acma/29_1.png')} 
-       style={{width:375, height: 526, resizeMode:'contain'}}/>
+       style={{width:320, height: 526, resizeMode:'contain', alignSelf:'center'}}/>
       
       <Image 
        source={require('../../img/parmak_acma/29_2.png')} 
-       style={{width:375, height: 201, resizeMode:'contain'}}/>
+       style={{width:375, height: 201, resizeMode:'contain', alignSelf:'center'}}/>
       <Text style={styles.paragraf}>
         Not: 29. Etüt, 24. etütte olduğu gibi La karar perdesinde 
         Zirgüleli hicaz dizisinde parmak alıştırmasına yönelik bir etüttür. 

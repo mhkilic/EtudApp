@@ -12,7 +12,7 @@ const Etut12 = () => {
       <YouTubeVideo videoId={'buAY0rwTe0c'}/>
       <Image 
        source={require('../../img/parmak_acma/12.png')} 
-       style={{width:375, height: 459, resizeMode:'contain'}}/>
+       style={{width:320, height: 459, resizeMode:'contain', alignSelf:'center'}}/>
       <Text style={styles.paragraf}>
         Not: Bu etütte ikinci tele geçişlerde seslerin temiz, alttan ve üstten 
         tezene vuruşlarında şiddetin eşit olmasına dikkat edilmelidir.

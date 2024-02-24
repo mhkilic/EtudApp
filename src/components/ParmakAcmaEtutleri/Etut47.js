@@ -12,7 +12,7 @@ const Etut47 = () => {
       <YouTubeVideo videoId={'GPZtJOHtUso'}/>
       <Image 
        source={require('../../img/parmak_acma/47.png')} 
-       style={{width:375, height: 425, resizeMode:'contain'}}/>
+       style={{width:320, height: 425, resizeMode:'contain', alignSelf:'center'}}/>
       <Text style={styles.paragraf}>
         Not: Bu etütte son ölçü hariç her ölçü isteğe bağlı olarak tekrar edilerek çalınabilir.
         </Text>

@@ -12,10 +12,10 @@ const Etut20 = () => {
       <YouTubeVideo videoId={'NknCCLIz5vk'}/>
       <Image 
        source={require('../../img/parmak_acma/20_1.png')} 
-       style={{width:375, height: 534, resizeMode:'contain'}}/>
+       style={{width:320, height: 534, resizeMode:'contain', alignSelf:'center'}}/>
       <Image 
        source={require('../../img/parmak_acma/20_2.png')} 
-       style={{width:375, height: 287, resizeMode:'contain'}}/>
+       style={{width:320, height: 287, resizeMode:'contain', alignSelf:'center'}}/>
       <Text style={styles.paragraf}>
         Not: 30–33. ölçülerdeki kromatik aralıkları seslendirirken özellikle 1. parmağın geldiği 
         perdelere dikkat edilmesi daha seri çalma becerisini kazandıracaktır.
